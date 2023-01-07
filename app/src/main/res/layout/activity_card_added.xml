@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171616"
+    tools:context=".Activity_Card_Added"
+    >
+
+    <TextView
+        android:id="@+id/Card_Added_Card_Added"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:background="@drawable/text_frame"
+        android:gravity="center_horizontal"
+        android:paddingVertical="6dp"
+        android:text="Added Successfuly"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <TextView
+        android:id="@+id/Card_Added_Check"
+        android:layout_width="196dp"
+        android:layout_height="143dp"
+        android:drawableBottom="@drawable/ic_check"
+        app:layout_constraintBottom_toTopOf="@+id/Card_Added_Add_Another"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Card_Added_Card_Added" />
+
+    <TextView
+        android:id="@+id/Card_Added_Add_Another"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:background="@drawable/text_frame"
+        android:gravity="center_horizontal"
+        android:paddingVertical="6dp"
+        android:text="Add Another Card"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Card_Added_Card_Added"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <TextView
+        android:id="@+id/Card_Added_Go_To_Main_Page"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:background="@drawable/text_frame"
+        android:gravity="center_horizontal"
+        android:paddingVertical="6dp"
+        android:text="Go To Main Page"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Card_Added_Add_Another"
+        app:layout_constraintVertical_bias="0.353" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
