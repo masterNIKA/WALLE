@@ -7,29 +7,22 @@
     tools:context=".mobileverification"
     android:background="#171616">
 
-    <EditText
-        android:id="@+id/Fg_Pass_Input_Number"
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/text_frame"
-        android:hint="Mobile Number"
-        android:paddingHorizontal="50dp"
-        android:paddingVertical="3dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.279" />
+        android:fontFamily="serif"
+        android:text="Mobile Verification"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="120dp" />
 
     <TextView
         android:id="@+id/Fg_Pass_Send_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="356dp"
         android:background="@drawable/text_frame"
         android:hint="Send"
         android:paddingHorizontal="20dp"
@@ -58,10 +51,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Fg_Pass_Send_Button"
-        app:layout_constraintVertical_bias="0.156" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
 
     <TextView
         android:id="@+id/Fg_Pass_Email_Verification"
@@ -75,8 +67,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Fg_Pass_Code"
-        app:layout_constraintVertical_bias="0.236" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
