@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".emailverification"
-    android:background="#171616">
+    android:background="#1E1D1D">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
         android:text="Email Verification"
+        android:gravity="center_horizontal"
         android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -26,18 +27,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/text_frame"
+        android:gravity="center_horizontal"
         android:hint="Four-Digit Code"
         android:paddingHorizontal="50dp"
         android:paddingVertical="3dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356" />
+        app:layout_constraintVertical_bias="0.41" />
 
     <TextView
         android:id="@+id/Fg_Pass_Email_Send_Button"
@@ -47,20 +49,23 @@
         android:paddingHorizontal="20dp"
         android:paddingVertical="3dp"
         android:text="Send"
+        android:gravity="center_horizontal"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Fg_Pass_Email_Code"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.155" />
 
     <TextView
         android:id="@+id/Fg_Pass_Number_Verification"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mobile Verification"
+        android:gravity="center_horizontal"
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -69,7 +74,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Fg_Pass_Email_Send_Button"
-        app:layout_constraintVertical_bias="0.168" />
+        app:layout_constraintVertical_bias="0.218" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

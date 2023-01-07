@@ -4,70 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#171616"
+    android:background="#1E1D1D"
     tools:context=".Activity_Card_Added"
     >
 
     <TextView
         android:id="@+id/Card_Added_Card_Added"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Card Added Successfully"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <TextView
+        android:id="@+id/Card_Added_Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/ic_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <TextView
+        android:id="@+id/Card_Added_Add_Another"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/text_frame"
         android:gravity="center_horizontal"
-        android:paddingVertical="6dp"
-        android:text="Added Successfuly"
+        android:paddingHorizontal="35dp"
+        android:paddingVertical="3dp"
+        android:text="Add Another Card"
         android:textColor="@color/black"
-        android:textSize="25dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+    <TextView
+        android:id="@+id/Card_Added_Go_To_Main_Page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_frame"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="3dp"
+        android:text="Go To Main Page"
+        android:textColor="@color/black"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211" />
-
-    <TextView
-        android:id="@+id/Card_Added_Check"
-        android:layout_width="196dp"
-        android:layout_height="143dp"
-        android:drawableBottom="@drawable/ic_check"
-        app:layout_constraintBottom_toTopOf="@+id/Card_Added_Add_Another"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Card_Added_Card_Added" />
-
-    <TextView
-        android:id="@+id/Card_Added_Add_Another"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
-        android:background="@drawable/text_frame"
-        android:gravity="center_horizontal"
-        android:paddingVertical="6dp"
-        android:text="Add Another Card"
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Card_Added_Card_Added"
-        app:layout_constraintVertical_bias="0.487" />
-
-    <TextView
-        android:id="@+id/Card_Added_Go_To_Main_Page"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
-        android:background="@drawable/text_frame"
-        android:gravity="center_horizontal"
-        android:paddingVertical="6dp"
-        android:text="Go To Main Page"
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Card_Added_Add_Another"
-        app:layout_constraintVertical_bias="0.353" />
+        app:layout_constraintVertical_bias="0.782" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

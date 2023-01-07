@@ -5,37 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_Payment_Successful"
-    android:background="#171616">
+    android:background="#1E1D1D">
 
     <TextView
         android:id="@+id/Pay_Success_Payment_Done"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
-        android:background="@drawable/text_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
         android:gravity="center_horizontal"
-        android:paddingVertical="6dp"
-        android:text="Payment Successfull!"
-        android:textColor="@color/black"
-        android:textSize="25dp"
+        android:text="Payment   Successful"
+        android:textColor="@color/white"
+        android:textSize="47sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211" />
+        app:layout_constraintVertical_bias="0.144" />
 
     <TextView
         android:id="@+id/Card_Added_Check"
-        android:layout_width="235dp"
-        android:layout_height="162dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:drawableBottom="@drawable/ic_check"
-        app:layout_constraintBottom_toTopOf="@+id/Card_Added_Go_To_Main_Page"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Pay_Success_Payment_Done"
-        app:layout_constraintVertical_bias="0.494" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
         android:id="@+id/Card_Added_Go_To_Main_Page"
@@ -46,13 +45,12 @@
         android:paddingVertical="6dp"
         android:text="Go To Main Page"
         android:textColor="@color/black"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.431"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Pay_Success_Payment_Done"
-        app:layout_constraintVertical_bias="0.51" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

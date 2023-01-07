@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".createaccount"
-    android:background="#171616">
+    android:background="#1E1D1D">
 
 
     <TextView
@@ -29,6 +29,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/text_frame"
         android:hint="Full Name"
+        android:gravity="center_horizontal"
         android:paddingHorizontal="100dp"
         android:paddingVertical="3dp"
         android:textColor="@color/black"
@@ -48,6 +49,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/text_frame"
         android:hint="Email"
+        android:gravity="center_horizontal"
         android:inputType="textEmailAddress"
         android:paddingHorizontal="120dp"
         android:paddingVertical="3dp"
@@ -68,6 +70,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/text_frame"
         android:hint="Phone Number"
+        android:gravity="center_horizontal"
         android:inputType="phone"
         android:paddingHorizontal="80dp"
         android:paddingVertical="3dp"
@@ -89,6 +92,7 @@
         android:layout_marginBottom="296dp"
         android:background="@drawable/text_frame"
         android:hint="Password"
+        android:gravity="center_horizontal"
         android:inputType="textPassword"
         android:paddingHorizontal="100dp"
         android:paddingVertical="3dp"
@@ -106,6 +110,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/text_frame"
         android:hint="Register"
+        android:gravity="center_horizontal"
         android:inputType="textPassword"
         android:paddingHorizontal="50dp"
         android:paddingVertical="3dp"

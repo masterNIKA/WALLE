@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#171616"
+    android:background="#1E1D1D"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,30 +12,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
+        android:gravity="center_horizontal"
         android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736" />
+        app:layout_constraintVertical_bias="0.765" />
 
     <TextView
         android:id="@+id/Log_Pg_Forgot_Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forgot Password"
+        android:gravity="center_horizontal"
         android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.668" />
+        app:layout_constraintVertical_bias="0.696" />
 
     <TextView
         android:id="@+id/App_Name"
@@ -44,7 +45,7 @@
         android:text="WALLE"
         android:fontFamily="serif"
         android:textColor="@color/white"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,17 +59,19 @@
         android:layout_height="wrap_content"
         android:background="@drawable/text_frame"
         android:hint="Full Name"
-        android:paddingHorizontal="50dp"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="80dp"
         android:paddingVertical="3dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
-        android:textSize="20dp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.383" />
+        app:layout_constraintVertical_bias="0.38" />
 
     <EditText
         android:id="@+id/Log_Pg_Pass"
@@ -76,19 +79,20 @@
         android:layout_height="wrap_content"
         android:background="@drawable/text_frame"
         android:hint="Password"
+        android:gravity="center_horizontal"
         android:inputType="textPassword"
-        android:paddingHorizontal="50dp"
+        android:paddingHorizontal="80dp"
         android:paddingVertical="3dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
-        android:textSize="20dp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.487" />
+        app:layout_constraintVertical_bias="0.484" />
 
     <TextView
         android:id="@+id/Log_Pg_Log_In_Button"
@@ -98,15 +102,16 @@
         android:paddingHorizontal="20dp"
         android:paddingVertical="3dp"
         android:text="Log In"
+        android:gravity="center_horizontal"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588" />
+        app:layout_constraintVertical_bias="0.609" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
