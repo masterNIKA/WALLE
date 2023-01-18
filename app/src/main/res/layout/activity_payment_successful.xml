@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.144" />
 
     <TextView
-        android:id="@+id/Card_Added_Check"
+        android:id="@+id/Pay_Success_Check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableBottom="@drawable/ic_check"
@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <TextView
-        android:id="@+id/Card_Added_Go_To_Main_Page"
+        android:id="@+id/Pay_Success_Go_To_Main_Page"
         android:layout_width="265dp"
         android:layout_height="45dp"
         android:background="@drawable/text_frame"

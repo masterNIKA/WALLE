@@ -27,13 +27,14 @@
         android:id="@+id/Log_Pg_Forgot_Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forgot Password"
         android:gravity="center_horizontal"
+        android:text="Forgot Password"
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.696" />
@@ -54,13 +55,13 @@
         app:layout_constraintVertical_bias="0.168" />
 
     <EditText
-        android:id="@+id/Log_Pg_Customer_Name"
+        android:id="@+id/Log_Pg_Customer_Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/text_frame"
-        android:hint="Full Name"
+        android:hint="Email"
         android:gravity="center_horizontal"
-        android:paddingHorizontal="80dp"
+        android:paddingHorizontal="102dp"
         android:paddingVertical="3dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
